@@ -1,0 +1,30 @@
+:root {
+
+  /* Colors */
+  --color-neutral-0: #ffffff;   /* Основной фон */
+  --color-neutral-100: #fbfbfb; /* Фон боковых лайаутов */
+  --color-neutral-200: #f3f3f3; /* Фон вторичных кнопок, ховер списков */
+  --color-neutral-300: #ECECEC; /* Ховер вторичных кнопок */
+  --color-neutral-400: #BFBFBF; /* Бордеры */
+  --color-neutral-500: #8C8C8C; /* Иконки */
+  --color-neutral-600: #6C6C6C; /* Второстепенный текст, ховер бордера */
+  --color-neutral-700: #393939; 
+  --color-neutral-800: #1C1C1C; /* Основной текст */
+  --color-neutral-900: #141414; 
+
+  --color-primary-0: #FFF4F4;  /* Заливка приоритета 03 */
+  --color-primary-100: #FFCECE; 
+  --color-primary-200: #FCA9A9; 
+  --color-primary-300: #F25959; /* Pressed контролов  */
+  --color-primary-400: #D51010; /* Основной цвет  */
+  --color-primary-500: #A60C0C; /* Ховер */
+  --color-primary-600: #760909; 
+  --color-primary-400-500: #A60C0C; /* Цвет лого */
+
+  --color-base: #000000; 
+
+
+  /* Font */
+  --font-family-base: "Source Sans 3", sans-serif;
+  
+}

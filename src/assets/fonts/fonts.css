@@ -1,0 +1,26 @@
+/* Regular */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./Sourse-sans-3/static/SourceSans3-Regular.woff") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./Sourse-sans-3/static/SourceSans3-Bold.woff") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("./Sourse-sans-3/static/SourceSans3-SemiBold.woff") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
