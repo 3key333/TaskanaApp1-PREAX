@@ -1,10 +1,14 @@
 import Statistic from '../../components/Statistic/Statistic'
-import './sideBar.module.css'
+import './sideBar.css'
 
 function SideBar() {
   return (
     <>
-      <Statistic/>
+      <section className='sideBar'>
+        <div className="sidebar-inner">
+          <Statistic/>
+        </div>
+      </section>
     </>
   )
 }

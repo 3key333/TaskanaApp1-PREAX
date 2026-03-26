@@ -1,0 +1,16 @@
+@import url('../../assets/variables.css');
+
+.sidebar-inner{
+    width: 400px;
+    height: 100vh;
+    border-left: 1px var(--color-neutral-400) solid;
+    padding-top: 24px;
+}
+
+.sideBar{
+    flex: 0 0 400px;
+
+    max-height: 900px;
+    overflow-y: auto;
+}
+

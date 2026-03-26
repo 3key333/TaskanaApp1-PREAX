@@ -1,12 +1,14 @@
 import MainContainer from '../../components/MainContainer/MainContainer'
 import Footer from '../../components/Footer/Footer'
-import './incomingTasks.module.css'
+import './incomingTasks.css'
 
 function IncomingTasks() {
   return (
     <>
-      <MainContainer />
-      <Footer />
+      <section className='incomingTasks'>
+        <MainContainer />
+        <Footer />
+      </section>
     </>
   )
 }
