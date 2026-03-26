@@ -1,0 +1,25 @@
+@import url('../../assets/variables.css');
+
+.navbar{
+    border-right: 1px var(--color-neutral-400) solid;
+    padding-top: 24px;
+    flex: 0 0 200px;
+    text-align: center;
+
+    max-height: 900px;
+    overflow-y: auto;
+}
+
+.navbar button{
+    padding: 8px;
+    width: 170px;
+    background-color: var(--color-base);
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-neutral-0);
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    border-radius: 8px;
+}
+

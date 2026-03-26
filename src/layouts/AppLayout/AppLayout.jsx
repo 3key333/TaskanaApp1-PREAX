@@ -1,12 +1,15 @@
-import Header from '../../components/Header/Header'
+
 import Content from '../Content/Content'
+import Header from '../Header/Header'
 import './appLayout.module.css'
 
-function AppLayout({ children }) {
+function AppLayout() {
   return (
     <>
-      <Header/>
-      <Content/>
+      <section className='app-layout'>
+        <Header />
+        <Content />
+      </section>
     </>
   )
 }

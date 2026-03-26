@@ -1,16 +1,17 @@
 import IncomingTasks from '../../pages/IncomingTasks/IncomingTasks'
 import NavBar from '../NavBar/NavBar'
 import SideBar from '../SideBar/SideBar'
-import './content.module.css'
+import './content.css'
 
-function Content({ children }) {
+function Content() {
   return (
     <>
-      <NavBar />
-      <IncomingTasks />
-      <SideBar />
+      <section className='content'>
+        <NavBar />
+        <IncomingTasks />
+        <SideBar />
+      </section>
     </>
   )
 }
-
 export default Content

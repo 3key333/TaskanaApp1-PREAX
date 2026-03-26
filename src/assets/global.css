@@ -2,11 +2,15 @@
 @import "./reset.css";
 @import "./fonts/fonts.css";
 
+
 body {
   font-family: var(--font-family-base);
   color: var(--color-neutral-800);
   background-color: var(--color-neutral-0);
   line-height: 1.4;
+
+  min-width: 1280px;
+  overflow-x: auto;
 }
 
 a {
@@ -17,3 +21,4 @@ a {
 button {
   cursor: pointer;
 }
+

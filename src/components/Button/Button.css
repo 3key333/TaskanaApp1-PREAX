@@ -1,0 +1,14 @@
+@import url('../../assets/variables.css');
+
+.header-button{
+    background-color: var(--color-primary-400);
+    color: var(--color-neutral-0);
+
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 8px;
+    border: none;
+    
+    display: inline-flex;
+    align-items: center;
+}
